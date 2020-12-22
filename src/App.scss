@@ -1,11 +1,18 @@
 html {
   scroll-behavior: smooth;
+  * {
+    // border: 1px solid grey;
+  }
+
+  h1 {
+    display: inline-block;
+  }
 
   #App {
-    text-align: center;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: 'Biryani', sans-serif;
 
     nav {
+      text-align: center;
       height: 80px;
       position: fixed;
       top: 0;
@@ -23,7 +30,6 @@ html {
         a {
           text-decoration: none;
           color: white;
-          // letter-spacing: -0.05em;
         }
       }
 
@@ -70,49 +76,127 @@ html {
       height: 100vh;
       background-position: left;
       background-attachment: fixed;
+    }
 
-      // img {
-      //   max-height: 100vh;
-      //   width: 100vw;
-      //   padding: 0;
-      //   display: block;
-      //   margin: 0 auto;
-      //   // opacity: 0.5;
-      //   object-fit:cover;
-      // }
-      // .title {
-      //   position: absolute;
-      //   top: 50%;
-      //   left: 50%;
-      //   transform: translate(-50%, -50%);
-      //   font-weight: bold;
-      //   font-size: 50px;
-      //   -webkit-text-fill-color: white;
-      //   -webkit-text-stroke-width: 3px;
-      //   -webkit-text-stroke-color: black;
-      // }
+    #about, #skill, #education {
+      width: 100vw;
+      padding: 40px 0;
+      .container {
+        margin: auto;
+        width: 80%;
+      }
     }
     
-
     #about {
-      height: 100vh;
-      position: relative;
-      .avatar {
-        height: 200px;
-        width: 200px;
-        position: absolute;
-        top: 50%;
-        left: 10%;
-        transform: translateY(-50%);
+      .container {
+        .profile {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
 
-        img {
-          height: 100%;
-          width: 100%;
-          vertical-align: middle;
-          border-radius: 50%;
-          object-fit:cover;
+          .profile-left {
+            width: 40%;
+            height: 100%;
+            text-align: center;
+  
+            img {
+              height: 300px;
+              width: 300px;
+              vertical-align: middle;
+              border-radius: 50%;
+              object-fit:cover;
+            }
+          }
+
+          .profile-right {
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            .summary {
+              a {
+                text-decoration: none;
+                color: blue;
+              }
+            }
+            .contact {
+              a {
+                color: black;
+                font-size: 40px;
+                margin: 10px;
+                .icon {
+                  border: 0;
+                }
+              }
+              
+            }
+          }
         }
       }
     }
+
+    #skill {
+      background-color: #F5F5F5;
+      .container {
+        .tools {
+          text-align: center;
+          padding: 40px 0;
+          .tool {
+            width: 100%;
+            border: 0;
+            height: 80px;
+            margin: 10px;
+            img {
+              height: inherit;
+            }
+          }
+        }
+      }
+    }
+
+    #education {
+      .container {
+        .education {
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          margin: 40px 0;
+
+          .education-left {
+            width: 40%;
+            height: 100%;
+            text-align: center;
+  
+            img {
+              height: 150px;
+              width: 150px;
+              vertical-align: middle;
+            }
+          }
+
+          .education-right {
+            width: 60%;
+            p {
+              margin: 10px 0;
+            }
+            span {
+              font-style: italic;
+            }
+            .school {
+              // color: blue;
+              font-size: 22px;
+            }
+            .degree {
+              color: green;
+              font-size: 14px;
+            }
+            .location {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+
   }
 }
