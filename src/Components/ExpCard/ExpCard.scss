@@ -1,0 +1,49 @@
+.container {
+  margin: auto;
+  width: 80%;
+  
+  .exp {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 40px 0;
+
+    .left {
+      width: 30%;
+      height: 100%;
+      text-align: center;
+
+      a {
+        height: 150px;
+        img {
+          height: 150px;
+          // width: 150px;
+          vertical-align: middle;
+        }
+      }
+    }
+
+    .right {
+      width: 70%;
+      p {
+        margin: 10px 0;
+      }
+      span {
+        font-style: italic;
+      }
+      .name {
+        // color: blue;
+        font-size: 22px;
+      }
+      .title {
+        color: green;
+        font-size: 14px;
+        font-weight: bold;
+      }
+      .location {
+        font-size: 14px;
+      }
+    }
+  }
+}
