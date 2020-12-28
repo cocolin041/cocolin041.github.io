@@ -1,25 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.b65e88e3.chunk.css",
-    "main.js": "/static/js/main.0ca498e9.chunk.js",
-    "main.js.map": "/static/js/main.0ca498e9.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.1df07ccf.js",
-    "runtime-main.js.map": "/static/js/runtime-main.1df07ccf.js.map",
-    "static/js/2.9023d177.chunk.js": "/static/js/2.9023d177.chunk.js",
-    "static/js/2.9023d177.chunk.js.map": "/static/js/2.9023d177.chunk.js.map",
-    "static/js/3.3c64d786.chunk.js": "/static/js/3.3c64d786.chunk.js",
-    "static/js/3.3c64d786.chunk.js.map": "/static/js/3.3c64d786.chunk.js.map",
+    "main.css": "/static/css/main.fad7f387.chunk.css",
+    "main.js": "/static/js/main.6ec203f7.chunk.js",
+    "main.js.map": "/static/js/main.6ec203f7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7d563edf.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7d563edf.js.map",
+    "static/js/2.456e273e.chunk.js": "/static/js/2.456e273e.chunk.js",
+    "static/js/2.456e273e.chunk.js.map": "/static/js/2.456e273e.chunk.js.map",
+    "static/js/3.26f35160.chunk.js": "/static/js/3.26f35160.chunk.js",
+    "static/js/3.26f35160.chunk.js.map": "/static/js/3.26f35160.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.b65e88e3.chunk.css.map": "/static/css/main.b65e88e3.chunk.css.map",
-    "static/js/2.9023d177.chunk.js.LICENSE.txt": "/static/js/2.9023d177.chunk.js.LICENSE.txt",
-    "static/media/avatar.43e41898.jpg": "/static/media/avatar.43e41898.jpg",
+    "static/css/main.fad7f387.chunk.css.map": "/static/css/main.fad7f387.chunk.css.map",
+    "static/js/2.456e273e.chunk.js.LICENSE.txt": "/static/js/2.456e273e.chunk.js.LICENSE.txt",
+    "static/media/avatar2.a245767e.jpg": "/static/media/avatar2.a245767e.jpg",
     "static/media/App.scss": "/static/media/bg.46870768.jpg",
-    "static/media/ncku.129f064d.png": "/static/media/ncku.129f064d.png"
+    "static/media/fcu.2d6deb80.png": "/static/media/fcu.2d6deb80.png",
+    "static/media/homebrew.53f18956.png": "/static/media/homebrew.53f18956.png",
+    "static/media/ilabel.94733362.jpg": "/static/media/ilabel.94733362.jpg",
+    "static/media/ncku2.70619170.png": "/static/media/ncku2.70619170.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1df07ccf.js",
-    "static/js/2.9023d177.chunk.js",
-    "static/css/main.b65e88e3.chunk.css",
-    "static/js/main.0ca498e9.chunk.js"
+    "static/js/runtime-main.7d563edf.js",
+    "static/js/2.456e273e.chunk.js",
+    "static/css/main.fad7f387.chunk.css",
+    "static/js/main.6ec203f7.chunk.js"
   ]
 }
